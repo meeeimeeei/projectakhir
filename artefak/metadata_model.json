@@ -1,0 +1,25 @@
+{
+  "sumber_label": "Label Lama (relabeling BELUM selesai)",
+  "keandalan_alpha": null,
+  "keandalan_lembar": null,
+  "jumlah_data": 263,
+  "distribusi_kelas": {
+    "negatif": 126,
+    "netral": 75,
+    "positif": 62
+  },
+  "model": "Logistic Regression",
+  "parameter": {
+    "tfidf__max_df": "0.8",
+    "tfidf__min_df": "1",
+    "tfidf__ngram_range": "(1, 2)"
+  },
+  "f1_macro_cv": 0.5225,
+  "akurasi_cv": 0.5665,
+  "jumlah_fitur": 7464,
+  "kelas": [
+    "negatif",
+    "netral",
+    "positif"
+  ]
+}
