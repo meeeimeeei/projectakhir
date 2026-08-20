@@ -183,7 +183,7 @@ with tab1:
         "(tulis sendiri)": "",
         "Contoh positif": "Terima kasih DJP, lapor SPT tahunan sekarang sangat mudah dan cepat. Mantap sekali websitenya!",
         "Contoh negatif": "Pajak makin mencekik, tapi hasilnya dikorupsi terus. Percuma bayar",
-        "Contoh netral": "DJP menggelar sosialisasi tata cara pengisian SPT secara daring bagi seluruh wajib pajak",
+        "Contoh netral": "Batas waktu penyampaian SPT Tahunan PPh Orang Pribadi adalah tanggal 31 Maret setiap tahunnya",
     }
     pilih = st.selectbox("Muat contoh", list(contoh.keys()))
     teks = st.text_area(
