@@ -181,9 +181,9 @@ with tab1:
 
     contoh = {
         "(tulis sendiri)": "",
-        "Contoh positif": "Pelayanan di KPP sekarang jauh lebih cepat, petugasnya juga sangat membantu",
+        "Contoh positif": "Terima kasih DJP, lapor SPT tahunan sekarang sangat mudah dan cepat. Mantap sekali websitenya!",
         "Contoh negatif": "Pajak makin mencekik, tapi hasilnya dikorupsi terus. Percuma bayar",
-        "Contoh netral": "Batas akhir pelaporan SPT Tahunan orang pribadi adalah 31 Maret setiap tahun",
+        "Contoh netral": "DJP menggelar sosialisasi tata cara pengisian SPT secara daring bagi seluruh wajib pajak",
     }
     pilih = st.selectbox("Muat contoh", list(contoh.keys()))
     teks = st.text_area(
