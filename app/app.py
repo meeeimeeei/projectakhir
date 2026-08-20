@@ -348,17 +348,17 @@ with tab3:
                     st.image(os.path.join(DIR_GAMBAR, f), caption=j, width="stretch")
 
     hasil_cv = muat_hasil()
-    if hasil_cv is not None:
-        st.divider()
-        st.write("**Kasus salah klasifikasi**")
-        st.caption(
-            "Baris yang label sebenarnya berbeda dari prediksi cross validation. "
-            "Bagian ini dipakai untuk menemukan pola kelemahan model."
-        )
-        salah = hasil_cv[hasil_cv["label"] != hasil_cv["prediksi_cv"]]
-        st.write(f"{len(salah)} dari {len(hasil_cv)} baris salah klasifikasi.")
-        st.dataframe(
-            salah[["Isi Thread", "label", "prediksi_cv"]].head(30),
-            hide_index=True,
-            width="stretch",
+    # if hasil_cv is not None:
+   #     st.divider()
+  #      st.write("**Kasus salah klasifikasi**")
+  #      st.caption(
+   #         "Baris yang label sebenarnya berbeda dari prediksi cross validation. "
+  #          "Bagian ini dipakai untuk menemukan pola kelemahan model."
+  #      )
+  #      salah = hasil_cv[hasil_cv["label"] != hasil_cv["prediksi_cv"]]
+  #      st.write(f"{len(salah)} dari {len(hasil_cv)} baris salah klasifikasi.")
+ #       st.dataframe(
+  #          salah[["Isi Thread", "label", "prediksi_cv"]].head(30),
+   #         hide_index=True,
+     #       width="stretch",
         )
